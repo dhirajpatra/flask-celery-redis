@@ -1,0 +1,54 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="starter-template">
+    <div>
+      <h4>
+        Search By Date <input id="datepicker" name="datepicker" type="text"> <button type="button" class="btn-primary" id="date_wise_tasks">Get Tasks</a>
+      </h4>
+      <hr>
+      <div id="alltasksbydate">
+      </div>
+      <br clear="all">
+      <h4>
+        Search By MAC <input id="mac" name="mac" type="text"> <button type="button" class="btn-primary" id="mac_wise_tasks">Get Tasks</a>
+      </h4>
+      <hr>
+      <div id="alltasksbymac">
+      </div>
+      <br clear="all">
+      <h4>
+        Search By Restaurant Code <input id="restaurant_code" name="restaurant_code" type="text"> <button type="button" class="btn-primary" id="restaurant_code_wise_tasks">Get Tasks</a>
+      </h4>
+      <hr>
+      <div id="alltasksbyrestaurantcode">
+      </div>
+      {#<h4>Create a test Tasks</h4>
+      <p>Pick a task length...</p>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary" data-type="1">Short</a>
+        <button type="button" class="btn btn-primary" data-type="2">Medium</a>
+        <button type="button" class="btn btn-primary" data-type="3">Long</a>
+      </div>
+    </div>
+    <br><br>
+    <div>
+      <h4>Task Status</h4>
+      <br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Status</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody id="tasks">
+        </tbody>
+      </table>
+    </div> #}
+  </div>
+</div>
+
+{% endblock %}
